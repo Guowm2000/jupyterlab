@@ -1,0 +1,4 @@
+2023-03-21 08:34:05.294430|25327|25404|DEBUG| 157|recv client sdk callback, info[detective all clients connected server.], type[2].
+2023-03-21 08:34:05.294932|25327|25404|INFO |  60|[5e3df2bc-f70e-4fc2-9f51-86a00cff7923] : [socket.*.cmd.login] send sync data[cmd_client_login] to [5e3df2bc-f70e-4fc2-9f51-86a00cff7923]
+2023-03-21 08:34:05.297265|25327|25404|INFO |  70|recv the [socket.*.cmd.login] response[cmd_client_login].
+2023-03-21 08:34:05.297304|25327|25404|DEBUG|  89|client[5e3df2bc-f70e-4fc2-9f51-86a00cff7923] login success, recv data[cmd_client_login].
