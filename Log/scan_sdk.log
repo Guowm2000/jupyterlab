@@ -2,3 +2,22 @@
 2023-03-21 08:34:05.294932|25327|25404|INFO |  60|[5e3df2bc-f70e-4fc2-9f51-86a00cff7923] : [socket.*.cmd.login] send sync data[cmd_client_login] to [5e3df2bc-f70e-4fc2-9f51-86a00cff7923]
 2023-03-21 08:34:05.297265|25327|25404|INFO |  70|recv the [socket.*.cmd.login] response[cmd_client_login].
 2023-03-21 08:34:05.297304|25327|25404|DEBUG|  89|client[5e3df2bc-f70e-4fc2-9f51-86a00cff7923] login success, recv data[cmd_client_login].
+2023-03-22 08:51:42.643280|10231|10293|DEBUG| 157|recv client sdk callback, info[detective all clients connected server.], type[2].
+2023-03-22 08:51:42.663285|10231|10293|INFO |  60|[f1741111-ce25-4f76-9644-1ba2876bfb47] : [socket.*.cmd.login] send sync data[cmd_client_login] to [f1741111-ce25-4f76-9644-1ba2876bfb47]
+2023-03-22 08:51:42.664069|10231|10293|INFO |  70|recv the [socket.*.cmd.login] response[cmd_client_login].
+2023-03-22 08:51:42.664101|10231|10293|DEBUG|  89|client[f1741111-ce25-4f76-9644-1ba2876bfb47] login success, recv data[cmd_client_login].
+2023-03-22 14:17:55.969209|10231|10231|INFO | 284|parse input params error, scan type is unknow, will set default scan type.
+2023-03-22 14:17:55.969278|10231|10231|INFO | 340|parse input params error, current archive level is not surpported.
+2023-03-22 14:17:55.969297|10231|10231|INFO | 351|parse input params error, current archive size is not surpported.
+2023-03-22 14:17:55.969314|10231|10231|INFO | 373|parse input params error, current file size is not surpported.
+2023-03-22 14:17:55.969695|10231|10231|INFO |  60|[f1741111-ce25-4f76-9644-1ba2876bfb47] : [socket.ak.sd.events.scan_sdk_task_begin] send sync data[{"task_id":"1","session_id":"f1741111-ce25-4f76-9644-1ba2876bfb47","archive_switch":1,"archive_size":50,"archive_level":4,"file_size":100,"file_type":0,"operating_type":1,"scan_type":0,"content":"[\"/home/mhxc/下载/code-stable-arm64-1678817734.tar.gz\"]","content_length":57,"extinfo":"{\"qaxbrowser\":{\"url\":\"aHR0cHM6Ly9hejc2NDI5NS52by5tc2VjbmQubmV0L3N0YWJsZS9lZTJiMTgwZDU4MmE3ZjYwMWZhNmVjZmRhZDhkOWZkMjY5YWIxODg0L2NvZGUtc3RhYmxlLWFybTY0LTE2Nzg4MTc3MzQudGFyLmd6\",\"type\":\"download\"}}","extinfo_length":195}] to [socket.ak.sd.name.sd_bus]
+2023-03-22 14:17:55.972865|10231|10231|INFO |  70|recv the [socket.ak.sd.events.scan_sdk_task_begin] response[0].
+2023-03-22 14:17:56.494475|10231|10296|INFO | 224|havn't found the task[1] info.
+2023-03-22 14:17:56.494550|10231|10296|INFO | 116|[f1741111-ce25-4f76-9644-1ba2876bfb47] : [socket.ak.sd.events.scan_sdk_task_result] response data[0] to [socket.ak.sd.name.sd_bus]
+2023-03-24 08:45:34.314232|18832|18918|DEBUG| 157|recv client sdk callback, info[detective all clients connected server.], type[2].
+2023-03-24 08:45:34.330938|18832|18918|INFO |  60|[df0b1255-470f-47fe-977e-6aac4c6048f6] : [socket.*.cmd.login] send sync data[cmd_client_login] to [df0b1255-470f-47fe-977e-6aac4c6048f6]
+2023-03-24 08:45:34.331016|18832|18918|ERROR|  66|[socket.*.cmd.login] havn't recv the response, retry...
+2023-03-24 08:45:34.331036|18832|18918|DEBUG|  85|client df0b1255-470f-47fe-977e-6aac4c6048f6 login failed, wait 1 second for retry...
+2023-03-24 08:45:35.331460|18832|18918|INFO |  60|[df0b1255-470f-47fe-977e-6aac4c6048f6] : [socket.*.cmd.login] send sync data[cmd_client_login] to [df0b1255-470f-47fe-977e-6aac4c6048f6]
+2023-03-24 08:45:35.332146|18832|18918|INFO |  70|recv the [socket.*.cmd.login] response[cmd_client_login].
+2023-03-24 08:45:35.332176|18832|18918|DEBUG|  89|client[df0b1255-470f-47fe-977e-6aac4c6048f6] login success, recv data[cmd_client_login].
