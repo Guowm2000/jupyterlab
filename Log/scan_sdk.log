@@ -21,3 +21,17 @@
 2023-03-24 08:45:35.331460|18832|18918|INFO |  60|[df0b1255-470f-47fe-977e-6aac4c6048f6] : [socket.*.cmd.login] send sync data[cmd_client_login] to [df0b1255-470f-47fe-977e-6aac4c6048f6]
 2023-03-24 08:45:35.332146|18832|18918|INFO |  70|recv the [socket.*.cmd.login] response[cmd_client_login].
 2023-03-24 08:45:35.332176|18832|18918|DEBUG|  89|client[df0b1255-470f-47fe-977e-6aac4c6048f6] login success, recv data[cmd_client_login].
+2023-03-27 09:34:53.827756|10960|11027|DEBUG| 157|recv client sdk callback, info[detective all clients connected server.], type[2].
+2023-03-27 09:34:53.844291|10960|11027|INFO |  60|[00d62e09-2807-4fa2-986b-e745198b79e8] : [socket.*.cmd.login] send sync data[cmd_client_login] to [00d62e09-2807-4fa2-986b-e745198b79e8]
+2023-03-27 09:34:53.844370|10960|11027|ERROR|  66|[socket.*.cmd.login] havn't recv the response, retry...
+2023-03-27 09:34:53.844387|10960|11027|DEBUG|  85|client 00d62e09-2807-4fa2-986b-e745198b79e8 login failed, wait 1 second for retry...
+2023-03-27 09:34:54.844806|10960|11027|INFO |  60|[00d62e09-2807-4fa2-986b-e745198b79e8] : [socket.*.cmd.login] send sync data[cmd_client_login] to [00d62e09-2807-4fa2-986b-e745198b79e8]
+2023-03-27 09:34:54.845604|10960|11027|INFO |  70|recv the [socket.*.cmd.login] response[cmd_client_login].
+2023-03-27 09:34:54.845641|10960|11027|DEBUG|  89|client[00d62e09-2807-4fa2-986b-e745198b79e8] login success, recv data[cmd_client_login].
+2023-03-28 09:14:29.186222|6220 |6292 |DEBUG| 157|recv client sdk callback, info[detective all clients connected server.], type[2].
+2023-03-28 09:14:29.208941|6220 |6292 |INFO |  60|[de5d19b1-46c2-4843-af21-3fd65b699a97] : [socket.*.cmd.login] send sync data[cmd_client_login] to [de5d19b1-46c2-4843-af21-3fd65b699a97]
+2023-03-28 09:14:29.209035|6220 |6292 |ERROR|  66|[socket.*.cmd.login] havn't recv the response, retry...
+2023-03-28 09:14:29.209055|6220 |6292 |DEBUG|  85|client de5d19b1-46c2-4843-af21-3fd65b699a97 login failed, wait 1 second for retry...
+2023-03-28 09:14:30.209446|6220 |6292 |INFO |  60|[de5d19b1-46c2-4843-af21-3fd65b699a97] : [socket.*.cmd.login] send sync data[cmd_client_login] to [de5d19b1-46c2-4843-af21-3fd65b699a97]
+2023-03-28 09:14:30.210085|6220 |6292 |INFO |  70|recv the [socket.*.cmd.login] response[cmd_client_login].
+2023-03-28 09:14:30.210116|6220 |6292 |DEBUG|  89|client[de5d19b1-46c2-4843-af21-3fd65b699a97] login success, recv data[cmd_client_login].
